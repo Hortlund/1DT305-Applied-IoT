@@ -85,7 +85,7 @@ adc = machine.ADC() # creates a analog to digital conversion object
 apin = adc.channel(pin='P16') # maps pin p16 to apin variable
 bpin = adc.channel(pin='P15') # maps pin p15 to bpin variable
 
-url = 'http://192.168.0.4:8086/write?db=IOT' #url for upload to database
+url = 'URL' #url for upload to database
 
 
 while(1): # infinite loop
